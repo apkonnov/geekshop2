@@ -59,6 +59,20 @@
                     </div>
                     <div class="form-row">
                         <div class="col-lg-6">
+                            <label class="small mb-1" for="{{ profile_form.gender.id_for_label }}">Пол</label>
+                            {{ profile_form.gender }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-12">
+                            <label class="small mb-1" for="{{ profile_form.about.id_for_label }}">
+                                О себе
+                            </label>
+                            {{ profile_form.about }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
                             <label class="small mb-1" for="{{ form.username.id_for_label }}">Имя пользователя</label>
                             {{ form.username }}
                         </div>
